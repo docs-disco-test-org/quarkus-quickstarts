@@ -42,4 +42,4 @@ jobs:
       # - run: gradle test
       - run: ls
 
-      - run: docker build -f quarkus-quickstart/getting-started/src/main/docker/Dockerfile.multistage -t quarkus-quickstart/getting-started .
+      - run: docker build -f getting-started/src/main/docker/Dockerfile.multistage -t quarkus-quickstart/getting-started .
